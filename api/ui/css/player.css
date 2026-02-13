@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F6F7FB;
+    color: #111;
+  }
+  
+  .container {
+    padding: 24px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .video-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    padding: 16px;
+  }
+  
+  .video-info h2 {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .video-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .video-actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .video-actions button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #mark-complete {
+    background: #6C63FF;
+    color: #fff;
+  }
+  
+  #mark-complete:hover {
+    background: #5950d4;
+  }
+  
+  #favorite {
+    background: #fff;
+    border: 1px solid #FF6B6B;
+    color: #FF6B6B;
+  }
+  
+  #favorite:hover {
+    background: #FF6B6B;
+    color: #fff;
+  }
+  
+  .progress-bar {
+    margin-top: 12px;
+    height: 6px;
+    background: #E0E0E0;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #6C63FF;
+    width: 0%;
+  }
+  

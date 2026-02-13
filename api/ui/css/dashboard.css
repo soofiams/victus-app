@@ -1,0 +1,133 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== Container principal ===== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+/* ===== Títulos ===== */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* ===== Seção de eventos ===== */
+.events {
+  margin-bottom: 40px;
+}
+
+.event-card {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.event-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.event-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.event-card a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4f46e5;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.event-card a:hover {
+  background-color: #3730a3;
+}
+
+/* ===== Biblioteca ===== */
+.library-preview {
+  margin-bottom: 40px;
+}
+
+.playlist-card {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.playlist-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.video-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.video-item span {
+  display: inline-block;
+  width: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+  color: #4f46e5;
+}
+
+.video-item:hover {
+  color: #4f46e5;
+  transform: translateX(3px);
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .event-card, .playlist-card {
+    padding: 12px 15px;
+  }
+}
